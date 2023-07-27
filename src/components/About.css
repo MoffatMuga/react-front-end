@@ -1,0 +1,93 @@
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  position: relative; 
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.round-photo {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.reviews-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.review {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.review-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-content {
+  font-size: 16px;
+}
+
+.add-review-button {
+  background-color: aqua;
+  color: #241f3f;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.add-review-form {
+  margin-top: 20px;
+}
+
+.add-review-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.add-review-form input[type="text"],
+.add-review-form textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.add-review-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-review-form button[type="submit"] {
+  margin-right: 10px;
+}
+
+.add-review-form button[type="button"] {
+  background-color: #dc3545;
+}
+
+

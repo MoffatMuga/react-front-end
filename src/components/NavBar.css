@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #241f3f;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: aqua;
+    padding: 8px;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  

@@ -1,0 +1,178 @@
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #55516e;
+    width: 100%;
+    left: 0;
+  }
+
+  .Button {
+    border-radius: 4px;
+    background-color: aqua;
+    width: 200px;
+    height: auto; 
+    font-size: 24px;
+  
+  }
+  
+  /* Header */
+  .header {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Background Image */
+  .background-image-container {
+    position: relative;
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .W {
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+  }
+  
+  /* Image Gallery */
+  .image-gallery {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    background-color: #d6ae93;
+  }
+  
+  .image-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+  }
+  
+  .image-item-text {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .info-item {
+    flex: 1;
+    text-align: center;
+    font-size: 23px;
+    color: #B3A5C4;
+  }
+  
+  .info-item p {
+    margin: 0;
+    font-size: 38px;
+    color: #B3A5C4;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .newsletter-form input {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .newsletter-form button {
+    margin-right: 5px;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #241f3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .p {
+    color: #241f3f;
+    font-size: 20px;
+  }
+
+  .lorem-text {
+    font-size: 38px; 
+    color: #B3A5C4;
+  }
+  /* Footer.css */
+  .footer-container {
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 800px; 
+    width: 100%;
+  }
+  
+  .footer-social {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 180px;
+  }
+  
+  .social-icons a {
+    color: aqua; 
+    font-size: 40px;
+    font-family: "Arial", sans-serif;
+    padding-bottom: 30px;
+  }
+
+  .footer-copyright {
+    background-color: #241f3f; 
+    color: aqua; 
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 9px;
+    margin-right: 9px;
+    width: 100%;
+  }
+
